@@ -1,0 +1,562 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #4A4A4A;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #FFF;
+    height: 65px;
+    width: 100%;
+}
+footer a {
+    color: #FFF;
+}
+footer a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.hero {
+    background: url("../images/hero1.png") no-repeat; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;    
+    height: 800px;
+    margin-bottom: 0;
+    margin-top: -170px;
+    border-radius: 0;
+}
+
+.separador {
+    border-bottom: solid 20px #F1803C;
+}
+
+
+.porQueHrBox {
+    background: url("../images/bg-porquehrbox.png") no-repeat; 
+    color: #FFF;
+    border-bottom: solid 10px #5AC3C3;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;
+    height: 470px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.porQueHrBox h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 85px;
+    border-bottom: solid 1px #5AC3C3;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+}
+.porQueHrBox h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.porQueHrBox p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+.separata {
+    border-bottom: solid 1px #5AC3C3;
+    padding-bottom: 20px;
+}
+
+
+.contenedor-a {
+    background-color: #F2F2F2;
+    border-bottom: solid 10px #5AC3C3;
+    height: auto;
+    padding: 20px 0 100px 0;
+    width: auto;
+}
+.contenedor-a a {
+    text-decoration: none;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out; 
+}
+.contenedor-a a:hover {
+    opacity: 0.3;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out; 
+}
+.atraer, .liderazgo-cultura, .innovar {
+    color: #F1803C;
+    margin: 10px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 23px 0 0 0;
+}
+.atraer:hover, .liderazgo-cultura:hover, .innovar:hover {
+    opacity: 0.5;
+}
+.marcas {
+    height: auto;
+    padding: 30px 0 30px 0;
+}
+.centrar {
+    text-align: center;
+}
+.legales {
+    background-color: #F1803C;
+    font-size: 12px;
+    font-weight: 100;
+    color: #FFF;
+    height: 50px;
+    width: auto;
+}
+.legales a {
+    color: #FFF;
+    text-decoration: none;
+}
+.legales a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.emailBox {
+    background: url("../images/bg-email.png") no-repeat; 
+    color: #FFF;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;
+    height: 364px;
+}
+.emailBox h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 150px;
+}
+.emailBox p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+.testimonios {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.testimonios p {
+    font-family: 'Open Sans', sans-serif;
+    color:grey;
+    font-size: 14px;
+    font-style: italic;
+}
+.testimonios h6 {
+    color: #F1803C;
+    font-size: 12px;
+    font-weight: 500;
+}
+.imagenesTestimonios img {
+    height: auto;
+    width: 40%;
+}
+.bajar {
+    margin-top: 77px;
+}
+
+.redes {
+    font-size: 20px;
+}
+.rede {
+    padding: 0 5px 0 5px;
+}
+.tituloTestimonios {
+    color: #F1803C;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.nombreTestimonios {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 5px 0;
+}
+.tituloQuetegustaria {
+    color: #F1803C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 50px 0 50px 0;
+}
+.marca img {
+    height: auto;
+    width: 70%;
+}
+.textoEmpresa {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 40px 0 30px 0;
+    color: #808080;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 35px;
+}
+.logo img {
+    height: auto;
+    width: 25%;
+}
+.menu {
+    border-top: solid 5px #F1803C;
+    opacity: 0.8;
+    height: 87px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.menuInterno {
+    border-top: solid 5px #F1803C;
+    border-bottom: solid 1px #959090;
+    opacity: 0.8;
+    height: 87px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.btnContacto {
+    border: solid 2px #F1803C;
+    margin-left: 20px;
+}
+.linkOrange {
+    color: #F1803C;
+    font-size: 13px;
+}
+.columnaForm {
+    margin-top: 150px;
+}
+.btnSub {
+    color: #FFF;
+    border-radius: 0;
+    border: solid 3px #FFF;
+    margin-bottom: 25px;
+    width: 25%;
+}
+.btnSub:hover {
+    background-color: #5AC3C3;
+    border: solid 3px #FFF;
+}
+.emailBox input {
+    height: 50px;
+    border-radius: 0;
+    font-style: italic;
+    color: grey;
+    width: 70%;
+}
+.colDown {
+    margin-top: 400px;
+    color: #FFF;
+    background-color: rgba(241, 128, 60, 0.60);
+    padding: 30px;
+}
+.colDown h2 {
+    font-family: 'Montserrat';
+    line-height: 55px;
+    font-weight: 300;
+    font-size: 40px;
+}
+.tituloQuienesSomos h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #F1803C;
+}
+.tituloQuienesSomos  p {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+.nosotrosJennifer img {
+    height: auto;
+    margin-bottom: 27px;
+    width: 100%;
+}
+.separadorCeleste {
+    border-bottom: solid 10px #5AC3C3;
+}
+.nosotros {
+    margin-bottom: 77px;
+    margin-top: 67px;
+}
+.tituloQuienesSomos {
+    margin-top: 67px;
+}
+.btnTeam {
+    color: #F1803C;
+    height: 50px;
+    width: 100%;
+    border-radius: 0;
+    border: solid 3px #F1803C;
+}
+.btnTeam:hover {
+    color: #FFF;
+    width: 100%;
+    border-radius: 0;
+    background-color: #F1803C;
+    border: solid 3px #F1803C;
+}
+.nosotros h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #F1803C;
+} 
+.nosotros  p {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+.founder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+    margin-top: 15px;
+}
+.redsContactos {
+    color: #F1803C;
+    font-size: 25px;
+    font-weight: 400;
+}
+.obligatorio {
+    color: #C6BFBF;
+    font-size: 12px;
+}
+.nosotros form {
+    height: auto;
+    border: none;
+    margin-top: 30px;
+}
+.nosotros form input {
+    border: none;
+    border-bottom: solid 1px grey;
+    border-radius: 0;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 60px;
+    width: 70%;
+}
+.btnFormaParte {
+    color: #F1803C;
+    font-size: 14px;
+    background-color: #FFF;
+    border-radius: 0;
+    height: 35px;
+    width: 25%;
+    border: solid 2px #F1803C;
+}
+.mapa {
+    background: url("../images/mapa.png") no-repeat; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;    
+    height: 544px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.terminosYcondiciones {
+    margin-bottom: 100px;
+}
+
+.terminosYcondiciones h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F1803C;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.terminosYcondiciones p {
+    font-size: 13px;
+    color: grey;
+    line-height: 22px;
+    text-align: justify;
+}
+.formularioRecibidoOka {
+    height: 500px;
+    text-align: center;
+}
+.formularioRecibidoOka h2 {
+    color: #F1803C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 170px;
+    margin-bottom: 20px;
+}
+.formularioRecibidoOka img {
+    margin-bottom: 15px;
+}
+.btnVolver {
+    color: #FFF;
+    background-color: #F1803C;
+    border-radius: 0;
+    width: 12%;
+}
+.liderazgoYcultura img {
+    height: auto;
+    width: 65%;
+}
+.columna2liderazgo {
+    text-align: center;
+}
+.liderazgoYcultura {
+    margin-top: 50px;
+}
+.liderazgoYcultura h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #F1803C;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.liderazgoYcultura h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    color: grey;
+}
+.liderazgoYcultura p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    font-weight: 100;
+}
+.liderazgoYculturaTexto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    font-weight: 100;
+    line-height: 27px;
+}
+.formContactoCompra {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.formContactoCompra form input {
+    border: 0;
+    border-bottom: solid 1px grey;
+    border-radius: 0;
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+.titlosFormulariosVenta {
+    margin-top: 50px;
+}
+.lineaHr {
+    margin-top: 40px;
+}
+.pieConMpYPayPal {
+    margin-bottom: 60px;
+}
+.pieConMpYPayPal p {
+    color: #959090;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.liderazgoYcultura h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin-top: 35px;
+}
+.circulo {
+    color: #F1803C;
+}
+.titlosFormulariosVenta h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.titlosFormulariosVenta small {
+    font-size: 12px;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+.pieConMpYPayPal p {
+    float: right;
+}
+.franja {
+    height: 285px;
+    color: #FFF;
+    background-color: #F1803C;
+    text-align: center;
+    padding-top: 35px;
+    width: 100%;
+}
+.franja h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+.franja h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.shop {
+    margin-bottom: 100px;
+    margin-top: -130px;
+}
+.shop a:hover {
+    opacity: 0.7;
+}
+.shop h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.active {
+    border-bottom: solid 2px #F1803C;
+}
+.controlModal:hover {
+    opacity: 0.7;
+}
+.formaParteTeam img {
+    height: auto;
+    width: 70%;
+}
+.formaParteTeam {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
