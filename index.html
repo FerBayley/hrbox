@@ -16,95 +16,92 @@
   <body>
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
-        <a class="navbar-brand logo" href="#">
-            <img src="assets/images/logo.png" alt="Logo">
+    <nav class="navbar navbar-expand-lg navbar-light menu" style="background-color: rgba(255, 255, 255, 0.8);">
+        <a href="index.html">
+            <h1>
+                <img src="assets/images/logo.png" alt="Logo HrBox Latam">
+            </h1>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+              
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="shop.html">HR SHOP</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item btnContacto">
-                <a class="nav-link" href="contacto.html"><span class="linkOrange">CONTACTANOS</span></a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">HR SHOP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                </li>
+                <li class="nav-item btnContacto">
+                    <a class="nav-link" href="contacto.html"><span class="linkOrange">CONTACTANOS</span></a>
+                </li>
+            </ul>
         </div>
     </nav>
     <!-- /Header -->
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- JumboTron -->
+    <section class="jumbo">
         <div class="container">
-            <div class="row">
-                <div class="col-8"></div>
-                <div class="col-4 colDown">
-                    <h2>Modern HR for Modern People</h2>
+            <div class="row copyCols">
+                <div class="col-7 textoVacio"></div>
+                <div class="col-5 copy">
+                    <h2>Modern HR for <br> Modern People</h2>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /Hero Section -->
-
-    <!-- Separador -->
-    <section class="separador"></section>
-    <!-- /Separador -->
-
+    <!-- /JumboTron -->
     
     <!-- Texto empresa -->
-    <div class="container fondoMision">
-        <div class="row">
-            <div class="col' textoEmpresa">
-                <article>
-                    <p>
-                        Bienvenidos a la primera tienda digital de Recursos Humanos de Latinoamérica. Una plataforma que proporciona contenidos, 
-                        prácticas y documentos de RRHH digitales, intuitivos, accesibles y de ágil implementación. 
-                    <br>
-                        Desarrollamos contenidos modernos e innovadores usando metodologías comprobadas internacionalmente.
-                    </p>
-                </article>
+    <section class="fondoMision">
+        <div class="container">
+            <div class="row">
+                <div class="col' textoEmpresa">
+                    <article>
+                        <p>
+                            Bienvenidos a la primera tienda digital de Recursos Humanos de Latinoamérica. 
+                            Una plataforma que proporciona contenidos, 
+                            prácticas y documentos de RRHH digitales, intuitivos, accesibles y de ágil implementación. 
+                        <br>
+                            Desarrollamos contenidos modernos e innovadores usando metodologías comprobadas internacionalmente.
+                        </p>
+                    </article>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /Texto empresa -->
-
 
     <!-- Que queres hacer -->
     <section class="contenedor-a">
         <div class="container text-center">
             <h2 class="tituloQuetegustaria">¿Qué te gustaría hacer?</h2>
             <div class="row center">
-                <div class="col-4 text-center">
-                    <button type="button" class="btn controlModal" data-toggle="modal" data-target="#atraerModal">
+                <div class="col-12 col-md-4 col-sm-4 text-center">
+                    <a href="#" data-toggle="modal" data-target="#atraerModal">
                         <img src="assets/images/atraccion.png" alt="Atracción">
                         <h3 class="atraer">Atraer</h3>
-                    </button>
+                    </a>
                 </div>
 
-                <div class="col-4 text-center">
-                    <a href="#">
-                        <button type="button" class="btn controlModal" data-toggle="modal" data-target="#liderazgoModal">
-                            <img src="assets/images/liderazgo-cultura.png" alt="Liderazgo & Cultura">
-                            <h3 class="liderazgo-cultura">Liderazgo & cultura</h3>
-                        </button>
+                <div class="col-12 col-md-4 col-sm-4 text-center">
+                    <a href="#" data-toggle="modal" data-target="#liderazgoModal">
+                        <img src="assets/images/liderazgo-cultura.png" alt="Liderazgo & Cultura">
+                        <h3 class="liderazgo-cultura">Liderazgo & cultura</h3>
                     </a>
                 </div>
                 
-                <div class="col-4 text-center">
-                    <a href="#">
+                <div class="col-12 col-md-4 col-sm-4 text-center">
+                    <a href="#" data-toggle="modal" data-target="#innovarModal">
                         <img src="assets/images/innovar.png" alt="Innovar">
                         <h3 class="innovar">Innovar</h3>
                     </a>
@@ -114,58 +111,62 @@
     </section>
     <!-- /Que queres hacer -->
 
-
-
     <!-- Marcas -->
-    <div class="container marcas">
-        <div class="row text-center">
-            <div class="col-2 marca">
-                <a href="#">
-                    <img src="assets/images/galicia.png" alt="Logo empresa 1">
-                </a>
-            </div>
-            <div class="col-2 marca">
-                <a href="#">
-                    <img src="assets/images/ibm.png" alt="Logo empresa 2">
-                </a>
-            </div>
-            <div class="col-2 marca">
-                <a href="#">
-                    <img src="assets/images/movistar.png" alt="Logo empresa 3">
-                </a>
-            </div>
-            <div class="col-2 marca">
-                <a href="#">
-                    <img src="assets/images/lacaja.png" alt="Logo empresa 4">
-                </a>
-            </div>
-            <div class="col-2 marca">
-                <a href="#">
-                    <img src="assets/images/alcorta.png" alt="Logo empresa 5">
-                </a>
-            </div>
-            <div class="col-2 marca">
-                <a href="#">
-                    <img src="assets/images/citi.png" alt="Logo empresa 6">
-                </a>
+    <section class="MarcasMas">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="assets/images/galicia.png" alt="Banco Galicia">
+                    </a>
+                </div>
+    
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="assets/images/ibm.png" alt="IBM">
+                    </a>
+                </div>
+    
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="assets/images/movistar.png" alt="Movistar">
+                    </a>
+                </div>
+    
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="assets/images/lacaja.png" alt="La Caja">
+                    </a>
+                </div>
+    
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="assets/images/alcorta.png" alt="Paseo Alcorta">
+                    </a>
+                </div>
+    
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="assets/images/citi.png" alt="CitiBank">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /Marcas -->
-
 
     <!-- Por que HrBox -->
     <div class="porQueHrBox">
         <div class="container">
             <h2>¿Por qué HR BOX?</h2>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-xm-12">
                     <h3>Innovador</h3>
                     <p class="separata">Te ayudamos a gestionar el cambio operando en tu empresa a través de soluciones muy simples.</p>
                     <h3>Profesional</h3>
                     <p>Todo los documentos son escritos por pofesionales con experiencia en empresas con prácticas líderes.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <h3>Rápido y completo</h3>
                     <p class="separata">Recibirás tus documentos personalizados de forma muy rápida sin tener que esperar mucho tiempo.</p>
                     <h3>Seguro</h3>
@@ -184,19 +185,19 @@
     <!-- Testimonios -->
     <div class="container testimonios">
         <div class="row text-center">
-            <div class="col-4 imagenesTestimonios">
+            <div class="col-md-4 col-ms-12 imagenesTestimonios">
                 <img src="assets/images/testi1.png" alt="Testimonios 1">
                 <h3 class="nombreTestimonios">Eliza Reynolds</h3>
                 <p>"HR Box offers a new concept for Latin America..."</p>
                 <h6>CTO - CityGroup</h6>
             </div>
-            <div class="col-4 imagenesTestimonios">
+            <div class="col-md-4 col-ms-12 imagenesTestimonios">
                 <img src="assets/images/testi2.png" alt="Testimonios 2">
                 <h3 class="nombreTestimonios">Francis Patton</h3>
                 <p>"En HR Box encontré un excelente servicio, muy conveniente..."</p>
                 <h6>HR - HSBC</h6>
             </div>
-            <div class="col-4 imagenesTestimonios">
+            <div class="col-md-4 col-ms-12 imagenesTestimonios">
                 <img src="assets/images/testi3.png" alt="Testimonios 3">
                 <h3 class="nombreTestimonios">Angel Douglas</h3>
                 <p>"We have used to the services of HR Box in the past and we have always been very satisfied with their work..."</p>
@@ -206,16 +207,15 @@
     </div>
     <!-- /Testimonios -->
 
-
     <!-- Contenedor email -->
     <section class="emailBox">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <h2>¿Queres que te contactemos?</h2>
                     <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
                 </div>
-                <div class="col-6 columnaForm">
+                <div class="col-md-6 col-sm-12 columnaForm">
                     <form>
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email acá">
@@ -230,16 +230,15 @@
     </section>
     <!-- /Contenedor email -->
 
-
     <!-- Footer -->
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 pt-4">
+                <div class="col-md-6 col-sm-12 pt-4">
                     <a href="#">HOME</a> | <a href="#">NOSOTROS</a> | <a href="#">HR SHOP</a> | <a href="#">BLOG</a> | <a href="#">CONTACTANOS</a> 
                     | <a href="#">TERMINOS & CONDICIONES</a>
                 </div>
-                <div class="col-6 text-right pt-3 redes">
+                <div class="col-md-6 col-sm-12 text-right pt-3 redes">
                     <!-- Linkedin --> 
                     <i class="fab fa-linkedin rede"></i>
                     <!-- /Linkedin -->
@@ -262,71 +261,143 @@
     </footer>
     <!-- /Footer -->
 
-
     <!-- Legales -->
     <div class="container-fluid legales">
         <div class="row">
-            <div class="col-6 pt-3">
+            <div class="col-md-6 col-sm-12 pt-3">
                 <p>Todos los derechos reservados 2019</p>
             </div>
-            <div class="col-6 text-right pt-3">
+            <div class="col-md-6 col-sm-12 col-sx-12 text-right pt-3">
                 <a href="#">hrboxlatam.com</a> | <a href="#">info@hrboxlatam.com</a>
             </div>
         </div>
     </div>
     <!-- /Legales -->
 
-
-      
+    <!-- Modales -->         
     <!-- Atraer -->
-    <div class="modal fade" id="atraerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="atraer">Atraer</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    <div class="modal fade" id="atraerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container fotoModal">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/images/atraer.png" alt="Atraer">
+                            </div>
+                            <div class="col-6">
+                                <h2>Atraer</h2>
+                                <h3>Reclutamiento</h3>
+                                <a href="#">Programa de referidos.</a>
+                                <br>
+                                <a href="#">Redactar descripciones de puestos modernos.</a>
+                                <br>
+                                <a href="#">Proceso de reclutamiento ágil.</a>
+
+                                <hr>
+
+                                <h3>Reclutamiento</h3>
+                                <a href="#">Las nuevas entrevistas.</a>
+
+                                <hr>
+
+                                <h3>Inducción/Integración </h3>
+                                <a href="#">Programa de inducción para nuevo empleados.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnCerrar" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
         </div>
     </div>
     <!-- /Atraer -->
 
-
-    <!-- Liderazgo -->
-    <div class="modal fade" id="liderazgoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+    <!-- Liderazgo & Cultura -->
+    <div class="modal fade" id="liderazgoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="liderazgo">Liderazgo</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
                 <div class="modal-body">
-                    ...
+                    <div class="container fotoModal">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="assets/images/liderazgoimg.png" alt="Liderazgo & Cultura">
+                            </div>
+                            <div class="col-6">
+                                <h2>Liderazgo & Cultura</h2>
+                                <h3>Gestión de Desempeño</h3>
+                                <a href="#">Proceso de gestión de desempeño moderno.</a>
+
+                                <hr>
+
+                                <h3>Liderazgo</h3>
+                                <a href="#">Mentoring.</a>
+                                <a href="#">Coaching.</a>
+                                <a href="#">Empoderar a los demás.</a>
+                                <a href="#">Encontrar propósito en el trabajo.</a>
+                                <a href="#">“The New Me" - desarrollo del ser.</a>
+                                <a href="#">Programas de Cultura (cf. nueva plataforma de Cultura).</a>
+                                <a href="#">Programa de flexibilidad laboral.</a>
+
+                                <hr>
+
+                                <h3>Cultura</h3>
+                                <a href="#">Estrategias de comunicación interna.</a>
+                                <a href="#">Programa de voceros (embajadores de comunicación).</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary btnCerrar" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /Liderazgo -->
+    <!-- /Liderazgo & Cultura -->
 
+    <!-- Innovar -->
+    <div class="modal fade" id="innovarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body fotoModal">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                 <img src="assets/images/innovar.png" alt="Innovar">
+                            </div>
+                            <div class="col-6">
+                                <h2>Innovar</h2>
+                                <h3>Programas diversos</h3>
+                                <a href="#">Programa de referidos.</a>
+                                <br>
+                                <a href="#">Redactar descripciones de puestos modernos.</a>
+                                <br>
+                                <a href="#">Proceso de reclutamiento ágil.</a>
 
+                                <hr>
 
+                                <h3>Selección</h3>
+                                <a href="#">Entrevistas modernas.</a>
 
+                                <hr>                                
 
+                                <h3>Induccion/Integración</h3>
+                                <a href="#">Programa de inducción para nuevo empleados.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnCerrar" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Innovar -->
+    <!-- /Modales -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
