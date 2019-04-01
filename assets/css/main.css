@@ -25,14 +25,15 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.jumbo {
+.jumbotron {
     background: url("../images/hero1.png") no-repeat; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    background-size: cover;    
-    height: 800px;
-    margin-top: -150px;    
+    background-size: cover;   
+    background-position: center, center;
+    height: auto;   
+    margin-top: -180px;
     margin-bottom: 0;
     border-radius: 0;
 }
@@ -233,11 +234,11 @@ footer a:hover {
 }
 .textoEmpresa {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     padding: 55px 0 30px 0;
     color: #808080;
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
     line-height: 32px;
 }
 .btnContacto {
@@ -489,6 +490,48 @@ footer a:hover {
     font-weight: 100;
     line-height: 27px;
 }
+.explicacionCoaching p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.explicacionProgramaDeReferidos p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.explicacionredactarPuestosModernos p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.explicacionProcesoDeReclutamientoAgil p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.explicacionEntrevistasModernas p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.explicacionProgramaDeInduccionParaNuevosEmpleados p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #959090;
+    margin-top: 40px;
+    font-weight: 100;
+}
 .formContactoCompra {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -592,6 +635,11 @@ footer a:hover {
     background-color: #5AC3C3;
     border: 0;
 }
+.btnVerMas {
+    border-radius: 0;
+    background-color: #F1803C;
+    border: 0;
+}
 .fotoModal img {
     height: auto;
     width: 100%;
@@ -601,7 +649,7 @@ footer a:hover {
     color: #F1803C;
     font-size: 23px;
     font-weight: 300;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     margin-top: 20px;
 }
 .fotoModal h3 {
@@ -808,6 +856,7 @@ footer a:hover {
     font-size: 15px;
     font-weight: 600;
     border-top: solid 5px #F1803C;
+    z-index: 1;
 }
 .lineaGrisMenuInterno {
     border-bottom: solid 1px #959090;
@@ -834,6 +883,501 @@ footer a:hover {
 .linksAcontacto a {
     color: #F1803C;
 }
+.jumbo {
+    padding: 400px;
+}
+.jumbo h2 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 55px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.jumbo .bgCopy {
+    background-color: rgba(241, 128, 60, 0.60);
+    height: auto;
+    width: 35%;
+    padding: 30px 0 30px 20px;
+    float: right;
+}
+.hamburguesa {
+    border: none;
+}
+.color {
+    color: #F1803C;
+    font-size: 25px;
+}
+
+/*
+_____             .___.__        
+/     \   ____   __| _/|__|____   
+/  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+      \/     \/     \/         \/ 
+________                      .__               
+\_____  \  __ __   ___________|__| ____   ______
+/  / \  \|  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+/   \_/.  \  |  /\  ___/|  | \/  \  ___/ \___ \ 
+\_____\ \_/____/  \___  >__|  |__|\___  >____  >
+     \__>           \/              \/     \/ 
+
+*/
+
+/* Telefonos pequeños */
+@media (min-width: 320px) {
+    .jumbotron {
+        background: url("../images/hero1.png") no-repeat; 
+        background-size: cover;
+        background-position: center center;
+        margin-top: 0;
+        height: 650px;
+    }
+    .frase {
+        background-color: rgba(241, 128, 60, 0.80);
+        margin-top: 0px;
+    }
+    .frase h2 {
+        color: #FFF;
+        padding: 10px;
+        font-size: 26px;
+        line-height: 35px;
+        font-weight: 400;
+        padding-top: 25px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .fondoMision {
+        background-image: none;
+    }
+    .textoEmpresa {
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .tituloQuetegustaria {
+        margin: 0 0 15px 0;
+        padding: 0;
+    }
+    .contenedor-a {
+        padding-bottom: 30px;
+    }
+    .contenedor-a img {
+        margin-top: 40px;
+    }
+    .MarcasMas img {
+        height: auto;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .testimonios {
+        padding: 10px;
+    }
+    .testimonios h6 {
+        margin-bottom: 50px;
+    }
+    .testimonios img {
+        padding-top: 25px;
+    }
+    .tituloTestimonios {
+        margin: 20px 0 20px 0;
+        padding: 0;
+    }
+    .emailBox {
+        margin: 0;
+        padding: 0;
+    }
+    .emailBox h2 {
+        margin: 0;
+        padding: 20px 0 10px 0;
+    }
+    .columnaForm {
+        margin-top: 70px;
+        padding: 15px;
+    }
+    .columnaForm input {
+        width: 100%;
+    }
+    .btnSub {
+        width: 100%;
+    }
+    footer {
+        line-height: 30px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .franja {
+        height: 285px;
+        color: #FFF;
+        background-color: #F1803C;
+        text-align: center;
+        width: auto;
+    }
+    .franja h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 40px;
+    }
+    .franja h3 {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+    }
+    .tituloQuetegustaria {
+        padding: 20px 0 0 0;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .legales {
+        height: auto;
+        width: auto;
+    }
+    .nosotrosJennifer {
+        margin-top: 20px;
+    }
+}
+/* Telefonos pequeños */
+
+/*  Galaxy S5 */
+@media (min-width: 360px) {}
+
+
+
+
+/*  Galaxy S5 */
+@media (min-width: 375px) {
+    .fondoMision {
+        padding: 20px 20px 20px 20px;
+    }
+    .fondoMision .textoEmpresarial {
+        color: #4A4A4A;
+        line-height: 30px;
+        text-align: justify;
+        font-size: 17px;
+    }
+}
+
+
+
+/* Pixel 2 */
+@media (min-width: 411px) {}
+
+
+
+
+/* Pixel 2 */
+
+@media (min-width: 425px) {
+    .textoEmpresa p {
+        text-align: justify;
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: 500;
+    }
+    .atraer {
+        margin-bottom: 10px;
+    }
+    .MarcasMas img {
+        height: auto;
+        width: 40%;
+    }
+    .tituloTestimonios {
+        font-size: 26px;
+        padding: 20px 0 20px 0;
+        line-height: 37px;
+    }
+    .testimonios p {
+        padding-bottom: 50px;
+    }
+    .legales {
+        height: auto;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+/* Iphone 6/7/8 Plus */
+@media (min-width: 414px) {}
+/* Iphone 6/7/8 Plus */
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .jumbotron {
+        background: url("../images/hero1.png") no-repeat; 
+        background-size: cover;    
+        margin-top: 0;
+        height: 350px;
+    }
+    .frase {
+        background-color: rgba(241, 128, 60, 0.80);
+        margin-top: 60px;
+        width: 400px;
+        height: auto;
+        padding: 5px 0 5px 0;
+        position: relative;
+        margin-left: 40px;
+        width: auto;
+    }
+    .frase h2 {
+        color: #FFF;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 400;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .fondoMision {
+        height: auto;
+        padding: 10px 20px 20px 20px;
+        width: auto;
+    }
+    .textoEmpresarial {
+        font-size: 18px;
+        padding-top: 10px;
+        line-height: 35px;
+        width: auto;
+    }
+    .emailBox h2 {
+        font-size: 20px;
+        padding: 40px 0 20px 0;
+    }
+    .emailBox p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .nombreTestimonios {
+        font-size: 13px;
+    }
+    .testimonios p {
+        font-size: 12px;
+    }
+    .tituloTestimonios {
+        padding: 20px 0 20px 0;
+    }
+    .testimonios {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .btnVolver {
+        width: auto;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .jumbotron {
+        background: url("../images/hero1.png") no-repeat; 
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: cover;    
+        height: auto;   
+        margin-top: 0;
+        height: 500px;
+    }
+    .fondoMision {
+        height: auto;
+        background-image: url("../images/circulo-naranja.png");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: bottom right;
+        padding: 30px 0 90px 0;
+        width: 100%;
+    }
+    .textoEmpresarial {
+        height: auto;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .textoEmpresarial {
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .emailBox h2 {
+        padding-top: 40px;
+    }
+    .tituloTestimonios {
+        padding: 15px 0 20px 0;
+    }
+    .contenedor-a {
+        padding: 40px 0 0 0;
+    }
+    .atraer {
+        padding: 0 0 60px 0;
+    }
+    .frase {
+        background-color: rgba(241, 128, 60, 0.80);
+        margin-top: 130px;
+        width: 400px;
+        height: auto;
+        padding: 20px 0 20px 0;
+        position: relative;
+        margin-left: 100px;
+        width: auto;
+    }
+    .frase h2 {
+        color: #FFF;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 400;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .testimonios {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .MarcasMas img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .jumbotron {
+        background: url("../images/hero1.png") no-repeat; 
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: cover;    
+        background-position: left, left;
+        height: 850px;   
+        margin-top: -180px;
+        margin-left: -300px;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    .fondoMision {
+        height: auto;
+        background-image: url("../images/circulo-celeste.png"), url("../images/circulo-naranja.png");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: left, bottom right;
+        padding: 45px 0 45px 0;
+        width: 100%;
+    }
+    .textoEmpresarial {
+        height: auto;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .textoEmpresarial {
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .tituloQuetegustaria {
+        color: #F1803C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        margin: 0 0 10px 0;
+    }
+    .frase {
+        background-color: rgba(241, 128, 60, 0.80);
+        margin-top: 330px;
+        width: 400px;
+        height: auto;
+        padding: 0 0 20px 0;
+        position: relative;
+        float: right;
+    }
+    .frase h2 {
+        color: #FFF;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .tituloTestimonios {
+        margin: 40px 0 30px 0;
+    }
+    .atraer {
+        padding-bottom: 100px;
+    }
+    .emailBox {
+        padding: 30px 0 30px 0;
+    }
+    .emailBox h2 {
+        padding-top: 40px;
+    }
+    .textoEmpresa p {
+        font-size: 20px;
+    }
+    .MarcasMas img {
+        height: auto;
+        width: 100%;
+    }
+    .tituloTestimonios h2 {
+        padding: 0;
+    }
+
+
+
+
+
+    @media (min-width: 2560px) {
+        .jumbotron {
+            background: url("../images/hero1.png") no-repeat; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: cover;    
+            height: 1100px;   
+            margin-top: -180px;
+            height: 1200px;
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        .frase  {
+            width: auto;
+            padding: 30px;
+            line-height: 60px;
+            margin-top: 450px;
+            width: 500px;
+            height: auto;
+        }
+        .fondoMision {
+            height: 245px;
+            background-image: url("../images/circulo-celeste.png"), url("../images/circulo-naranja.png");
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: left, bottom right;
+        }
+        .emailBox {
+            padding: 50px 0 0 0;
+        }
+        .textoEmpresa {
+            font-size: 28px;
+            line-height: 45px;
+            text-align: justify;
+        }
+        .contenedor-a h3 {
+            margin-bottom: 60px;
+            font-size: 30px;
+        }
+        .franja h2 {
+            font-size: 30px;
+        }
+        .franja h3 {
+            font-size: 20px;
+        }
+    }
+
+    
+}
 
 
 
@@ -845,10 +1389,7 @@ footer a:hover {
 
 
 
-
-
-
-
+    `
 
 
 
