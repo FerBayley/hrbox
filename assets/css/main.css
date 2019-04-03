@@ -43,7 +43,7 @@ footer a:hover {
     background-image: url("../images/circulo-celeste.png"), url("../images/circulo-naranja.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: left, bottom right;
-    width: 100%;
+    width: auto;
 }
 
 .separador {
@@ -201,6 +201,10 @@ footer a:hover {
 
 .redes {
     font-size: 20px;
+}
+.redes a:hover {
+    text-decoration: none;
+    opacity: 0.5;
 }
 .rede {
     padding: 0 5px 0 5px;
@@ -400,8 +404,14 @@ footer a:hover {
     background-color: #FFF;
     border-radius: 0;
     height: 35px;
-    width: 25%;
+    width: 100%;
+    display: auto;
+    margin-bottom: 10px;
     border: solid 2px #F1803C;
+}
+.btnFormaParte:hover {
+    background-color: #F1803C;
+    color: #FFF;
 }
 .mapa {
     background: url("../images/mapa.png") no-repeat; 
@@ -479,7 +489,7 @@ footer a:hover {
 }
 .liderazgoYcultura p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #959090;
     font-weight: 100;
 }
@@ -603,7 +613,7 @@ footer a:hover {
 .shop h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: medium;
-    font-size: 14px;
+    font-size: 17px;
     margin-top: 5px;
     margin-bottom: 50px;
 }
@@ -619,7 +629,7 @@ footer a:hover {
 }
 .formaParteTeam img {
     height: auto;
-    width: 70%;
+    width: 100%;
 }
 .formaParteTeam {
     text-align: center;
@@ -628,7 +638,7 @@ footer a:hover {
     text-align: center;
     height: auto;
     margin: 0 auto;
-    width: 100%;
+    width: auto;
 }
 .btnCerrar {
     border-radius: 0;
@@ -907,6 +917,15 @@ footer a:hover {
     color: #F1803C;
     font-size: 25px;
 }
+.naranja {
+    background-color: #F1803C;
+    color: #FFF;
+    border-radius: 0;
+}
+.naranja:hover {
+    background-color: #d35400;
+    color: #FFF;
+}
 
 /*
 _____             .___.__        
@@ -926,6 +945,10 @@ ________                      .__
 
 /* Telefonos pequeños */
 @media (min-width: 320px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
     .jumbotron {
         background: url("../images/hero1.png") no-repeat; 
         background-size: cover;
@@ -950,8 +973,8 @@ ________                      .__
     .fondoMision {
         background-image: none;
     }
-    .textoEmpresa {
-        padding: 20px;
+    .textoEmpresarial {
+        padding: 10px;
         font-size: 16px;
         font-weight: 400;
         text-align: justify;
@@ -972,7 +995,7 @@ ________                      .__
         margin-bottom: 15px;
     }
     .testimonios {
-        padding: 10px;
+        padding: 15px;
     }
     .testimonios h6 {
         margin-bottom: 50px;
@@ -1037,6 +1060,10 @@ ________                      .__
     .nosotrosJennifer {
         margin-top: 20px;
     }
+    .columna2liderazgo img {
+        height: auto;
+        width: 100%;
+    }
 }
 /* Telefonos pequeños */
 
@@ -1094,6 +1121,11 @@ ________                      .__
     .legales {
         height: auto;
         padding-top: 20px;
+    }
+    .columna2liderazgo img {
+        height: auto;
+        margin-top: 30px;
+        width: 100%;
     }
 }
 
@@ -1173,6 +1205,11 @@ ________                      .__
     .btnVolver {
         width: auto;
     }
+    .columna2liderazgo img {
+        height: auto;
+        margin-top: 30px;
+        width: 100%;
+    }
 }
 
 
@@ -1244,6 +1281,12 @@ ________                      .__
     .MarcasMas img {
         height: auto;
         width: 100%;
+    }
+    .franja h2 {
+        font-size: 30px;
+    }
+    .franja h3 {
+        font-size: 20px;
     }
 }
 
@@ -1324,6 +1367,12 @@ ________                      .__
     .tituloTestimonios h2 {
         padding: 0;
     }
+    .franja h2 {
+        font-size: 30px;
+    }
+    .franja h3 {
+        font-size: 20px;
+    }
 
 
 
@@ -1383,13 +1432,6 @@ ________                      .__
 
 
 
-
-
-
-
-
-
-    `
 
 
 
