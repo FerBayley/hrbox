@@ -305,7 +305,16 @@ footer a:hover {
     color: #808080;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
+}
+.tituloQuienesSomos a {
+    color: #F1803C;
+    font-weight: 600;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+}
+.tituloQuienesSomos a:hover {
+    text-decoration: underline;
 }
 .nosotrosJennifer img {
     height: auto;
@@ -555,6 +564,7 @@ footer a:hover {
 }
 .titlosFormulariosVenta {
     margin-top: 50px;
+    color: #d35400;
 }
 .lineaHr {
     margin-top: 40px;
