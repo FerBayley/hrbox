@@ -584,6 +584,12 @@ footer a:hover {
     color: #333;
     margin-top: 35px;
 }
+.liderazgoYcultura a {
+    color: #333;
+}
+.liderazgoYcultura a:hover {
+    color: #F1803C;
+}
 .circulo {
     color: #F1803C;
 }
