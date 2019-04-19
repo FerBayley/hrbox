@@ -428,9 +428,27 @@ footer a:hover {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: cover;    
-    height: 744px;
-    margin-bottom: 0;
+    background-position: center, top;
+    height: 600px;
     border-radius: 0;
+}
+.mapus {
+    margin-top: 150px;
+}
+.mapus h2 {
+    font-size: 30px;
+    color: #FFF;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+.mapus p {
+    color: #FFF;
+}
+.encuentrenos {
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
 }
 .terminosYcondiciones {
     margin-bottom: 100px;
