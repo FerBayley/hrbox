@@ -529,31 +529,31 @@ footer a:hover {
 }
 .explicacionCoaching p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #959090;
+    font-size: 16px;
+    color: #333;
     margin-top: 40px;
-    font-weight: 100;
+    font-weight: 500;
 }
 .explicacionProgramaDeReferidos p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #959090;
+    font-size: 16px;
+    color: #333;
     margin-top: 40px;
-    font-weight: 100;
+    font-weight: 500;
 }
 .explicacionredactarPuestosModernos p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #959090;
+    font-size: 16px;
+    color: #333;
     margin-top: 40px;
-    font-weight: 100;
+    font-weight: 500;
 }
 .explicacionProcesoDeReclutamientoAgil p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #959090;
+    font-size: 16px;
+    color: #333;
     margin-top: 40px;
-    font-weight: 100;
+    font-weight: 500;
 }
 .explicacionEntrevistasModernas p {
     font-family: 'Open Sans', sans-serif;
@@ -564,10 +564,10 @@ footer a:hover {
 }
 .explicacionProgramaDeInduccionParaNuevosEmpleados p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #959090;
+    font-size: 16px;
+    color: #333;
     margin-top: 40px;
-    font-weight: 100;
+    font-weight: 500;
 }
 .formContactoCompra {
     margin-top: 30px;
@@ -610,6 +610,10 @@ footer a:hover {
 }
 .circulo {
     color: #F1803C;
+}
+.circuloGris {
+    color: grey;
+    font-size: 12px;
 }
 .titlosFormulariosVenta h2 {
     font-family: 'Open Sans', sans-serif;
@@ -663,7 +667,7 @@ footer a:hover {
 }
 .formaParteTeam img {
     height: auto;
-    width: 100%;
+    width: 70%;
 }
 .formaParteTeam {
     text-align: center;
@@ -888,6 +892,13 @@ footer a:hover {
     text-align: center;
     height: auto;
     padding: 40px 0 40px 0;
+}
+.MarcasMas h2 {
+    color: #F1803C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    margin: -10px 0 30px 0;
 }
 .MarcasMas img {
     height: auto;
